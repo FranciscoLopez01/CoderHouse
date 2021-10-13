@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1 class="titulo">Contactanos!</h1>
+    </div>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="integrantes.html">Integrantes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="shows.html">Shows</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="escuchanos.html">Escuchanos</a>
+      </li>
+    </ul>
+    <form action="" class="formulario">
+      <fieldset>
+        <legend>¡Contactanos!</legend>
+        <label for="nombre">Nombre/Empresa:</label>
+        <input
+          type="id"
+          name="nombre"
+          id="nombre"
+          placeholder="Ingrese su nombre"
+          required
+        />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <input
+          type="id"
+          name="apellido"
+          id="apellido"
+          placeholder="Ingrese su apellido"
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ingrese su correo electronico"
+        />
+        <br />
+        <div>¿Nos seguis en las redes?</div>
+        <div>Si, los sigo</div>
+        <input type="radio" id="redes" value="redes" />
+        <div>No los sigo</div>
+        <input type="radio" id="redes" value="redes" />
+
+        <br />
+        <label for="motivo">Motivo:</label>
+        <select name="motivo" id="motivo">
+          <option value="Sponsor">Sponsor</option>
+          <option value="Dudas">Preguntas/Consulta</option>
+          <option value="Otro">Otro</option>
+          required
+        </select>
+        <br />
+        <label for="mensaje">Mensaje:</label>
+        <br />
+        <textarea
+          type="mensaje"
+          name="mensaje"
+          id="mensaje"
+          placeholder="Resuma brevemente lo que necesite.¡Los leemos!"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+        <div>Acepto terminos y condiciones</div>
+        <input type="checkbox" name="condiciones" id="condiciones" value="1" />
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </fieldset>
+    </form>
+  </body>
+  <footer>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Instagram</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Youtube</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Twitch</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Twitter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Spotify</a>
+      </li>
+    </ul>
+  </footer>
+</html>
